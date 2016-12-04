@@ -8,19 +8,19 @@ os.chdir(os.path.normpath(os.path.join(os.path.abspath(__file__), os.pardir)))
 
 setup(
     name='django-couchbase',
-    version='0.0.1',
+    version='0.1',
     packages=find_packages(),
     include_package_data=True,
     license='MIT License',
     description='Django ORM for Couchbase.',
     long_description=README,
-    url='https://4sw.in/',
+    url='https://github.com/aswinkp/django-couchbase/',
+    download_url = 'https://github.com/aswinkp/django-couchbase/tarball/0.1',
     author='Aswin Kumar K P',
     author_email='kp.aswinkumar@gmail.com',
     classifiers=[
         'Environment :: Web Environment',
         'Framework :: Django',
-        'Framework :: Django :: 1.9.7',
         'Intended Audience :: Developers',
         'License :: OSI Approved :: MIT License',
         'Operating System :: OS Independent',

@@ -8,6 +8,8 @@ This package is aimed at developing the ORM for the couchbase - the next generat
 Dependencies
 ------------
 
+Make sure you install the below dependencies::
+
     couchbase==2.0.9
     shortuuid==0.4.3
     six==1.10.0

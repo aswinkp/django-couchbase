@@ -1,7 +1,7 @@
 Welcome to Django Couchbase's documentation!
 ============================================
 
-This package aims to provide ORM eqivalent to that of the django's default ORM for the couchbase database. With this package, accessing the couchbase database is not a headache anymore.
+Django Couchbase aims to provide ORM eqivalent to that of the django's default ORM for the couchbase database. With this package, accessing the couchbase database is not a headache anymore. With Django Couchbase, you can create the models the same way you do for relational databases.
 
 Contents:
 

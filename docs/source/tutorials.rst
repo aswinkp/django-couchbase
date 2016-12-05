@@ -151,15 +151,16 @@ You can create the document in the following way::
     # save all the above models in the database
     author.save()
 
-You can use them in any combiations you want. Like
+You can use them in any combiations you want. Like ::
 
- ListField(EmbeddedModelField)
- ListField(ModelReferenceField)
-
+ * ListField
+ * EmbeddedField
+ * ModelReferenceField
+ * ListField(EmbeddedModelField)
+ * ListField(ModelReferenceField)
 
 Retriving Documents
 ===================
-
 
 Document retrival is more similar process::
 
